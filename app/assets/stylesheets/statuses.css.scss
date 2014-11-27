@@ -5,7 +5,15 @@
 .status {
   border-bottom: solid 1px #CCC;
   padding: 5px 0;
-  p {
-    margin: 4px 0;
-  }
+}
+.status p {
+  margin: 4px 0;
+}
+
+
+.status .admin {
+  display: none;
+}
+.status:hover .admin {
+  display: inline;
 }
